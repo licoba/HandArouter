@@ -42,4 +42,8 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     implementation(project(":ha_annotation"))
+
+    // 引入注解处理器  https://mvnrepository.com/artifact/com.google.auto.service/auto-service
+    implementation("com.google.auto.service:auto-service:1.1.1")
+
 }
