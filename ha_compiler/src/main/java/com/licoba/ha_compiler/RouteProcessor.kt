@@ -17,6 +17,7 @@ class RouteProcessor : AbstractProcessor() {
     override fun init(processingEnv: ProcessingEnvironment) {
         super.init(processingEnv)
         logger.n("RouteProcessor 初始化")
+        println("RouteProcessor 初始化")
     }
 
     override fun process(
@@ -24,11 +25,12 @@ class RouteProcessor : AbstractProcessor() {
         roundEnv: RoundEnvironment
     ): Boolean {
         logger.n("RouteProcessor 开始处理了")
+        println("RouteProcessor 开始处理了")
         return true
     }
 
     // 只处理使用 @Route 的注解，其它注解不会处理
-    override fun getSupportedAnnotationTypes() = mutableSetOf(Route::class.java.canonicalName) // 3
+    override fun getSupportedAnnotationTypes() = mutableSetOf(Route::class.java.canonicalName)
 
 
 }

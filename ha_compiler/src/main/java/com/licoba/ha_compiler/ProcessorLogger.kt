@@ -24,6 +24,5 @@ class ProcessorLogger(private val env: ProcessingEnvironment) {
     private fun print(kind: Diagnostic.Kind, message: String, element: Element?) {
         print("\n")
         env.messager.printMessage(kind, message, element)
-
     }
 }

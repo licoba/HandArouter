@@ -38,7 +38,7 @@ dependencies {
     api("androidx.appcompat:appcompat:1.6.1")
     api("com.google.android.material:material:1.9.0")
     api("androidx.constraintlayout:constraintlayout:2.1.4")
-
+    api("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
 
     api(project(":ha_core"))
 }
