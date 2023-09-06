@@ -1,7 +1,7 @@
 package com.licoba.module1
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.licoba.ha_annotation.Route
 
 @Route(path = "/module1/module1main")
